@@ -1,9 +1,9 @@
 import type { DesignSystem, Page, SlideMeta } from '@open-slide/core';
 import { useSlidePageNumber } from '@open-slide/core';
-import { useEffect, useState } from 'react';
-import workflowImg from './assets/工作流程.png';
-import uiImg from './assets/工具介面.png';
 import spectraUiImg from './assets/spectra介面.png';
+import workflowImg from './assets/工作流程.png';
+import cRHNO9g3 from './assets/工具介面-CRHNO9g3拷貝.png';
+
 
 // ─── Design Tokens (Panel-tweakable) ──────────────────────────────────────────
 export const design: DesignSystem = {
@@ -1018,7 +1018,7 @@ const ToolingApp: Page = () => (
           }}
         >
           <img
-            src={uiImg}
+            src={cRHNO9g3}
             alt="Spectra 實際應用介面"
             style={{
               width: '100%',
